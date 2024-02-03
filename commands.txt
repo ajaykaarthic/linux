@@ -1,0 +1,41 @@
+
+# Create a directory 
+mkdir linux
+
+# Navigate to directory
+cd linux
+
+# List files in the directory (Long List) - ls
+ls
+
+# List more info on the files in directory
+ls -l
+
+# List all files including hidden
+ls -a
+
+# List files in order created
+ls -lt
+
+# List files in reverse order created
+ls -ltr
+
+# Create a file
+touch helloworld.txt
+
+# Redirect a commands output to a file
+echo "Hello World" > helloworld.txt
+
+# Display the contents of a file
+cat helloworld.txt
+
+# Display more info on screen, use space to scroll
+more helloworld.txt
+
+# Display less info on screen
+less helloworld.txt
+
+# Command line help
+whatis date
+man date
+date --help
